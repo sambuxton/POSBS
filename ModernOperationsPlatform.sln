@@ -1,0 +1,141 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Application Core", "3-Application Core", "{3707456A-D467-4409-9C90-E5026D9ACCB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-User Interface", "1-User Interface", "{BB791AA5-B460-42EB-BE5C-8B5702F45585}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Tests", "4-Tests", "{9C4E6496-D91E-424F-A4C3-5421233D890A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Services", "2-Services", "{EAF0F289-C4AF-45AE-BC50-51219D2C2E57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Azure Resources", "5-Azure Resources", "{E65CAD5C-5498-4553-B183-B851648D9BA6}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "ModernOps.Infrastructure", "ModernOps.Infrastructure\ModernOps.Infrastructure.deployproj", "{20D6187A-991B-46FD-B5F4-D31042511EC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernOps.CommonLibrary", "ModernOps.CommonLibrary\ModernOps.CommonLibrary.csproj", "{14841075-DDBE-4069-874B-337495A01459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernOps.BusinessLogic", "ModernOps.BusinessLogic\ModernOps.BusinessLogic.csproj", "{A67B51DF-4470-4B4D-B320-2EB4074A9640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernOps.BusinessLogic.Tests", "ModernOps.BusinessLogic.Tests\ModernOps.BusinessLogic.Tests.csproj", "{87B2443A-AC6B-4A8D-8716-11B682B6A8F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernOps.Interface", "ModernOps.Interface\ModernOps.Interface.csproj", "{2E2580CC-DCA1-48C0-8990-D1BA4163942A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernOps.ValueObject", "ModernOps.ValueObject\ModernOps.ValueObject.csproj", "{AF134E5E-F5EE-4CA9-BD33-9D25ACC9DA1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernOps.WebAPI", "ModernOps.WebAPI\ModernOps.WebAPI.csproj", "{43C8E672-1651-41E7-ADD0-31A2BF1A29A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernOps.WebAPI.Tests", "ModernOps.WebAPI.Tests\ModernOps.WebAPI.Tests.csproj", "{158C94DA-7547-45AC-AD1B-9364F904A7EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModernOps.FunctionApp", "ModernOps.FunctionApp\ModernOps.FunctionApp.csproj", "{FF23F16F-BC04-45DE-A456-C84ECAABD236}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModernOps.ChatBot", "ModernOps.ChatBot\ModernOps.ChatBot.csproj", "{069D587A-83CB-4788-B710-2B473960D210}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ModernOps.WebPortal", "ModernOps.WebPortal\", "{8CE964B9-175B-4B50-AA8B-CFD39FF7CF02}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64143"
+		Debug.AspNetCompiler.PhysicalPath = "ModernOps.WebPortal\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64143\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64143"
+		Release.AspNetCompiler.PhysicalPath = "ModernOps.WebPortal\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64143\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64143"
+		SlnRelativePath = "ModernOps.WebPortal\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernOps.ChatBot.Tests", "ModernOps.ChatBot.Tests\ModernOps.ChatBot.Tests.csproj", "{E45D23FA-458B-4EBE-9BFB-9B2DCB81D23C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernOps.FunctionApp.Tests", "ModernOps.FunctionApp.Tests\ModernOps.FunctionApp.Tests.csproj", "{DE78BED7-A5EF-4E63-A09D-94C6B6416BC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20D6187A-991B-46FD-B5F4-D31042511EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D6187A-991B-46FD-B5F4-D31042511EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D6187A-991B-46FD-B5F4-D31042511EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D6187A-991B-46FD-B5F4-D31042511EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14841075-DDBE-4069-874B-337495A01459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14841075-DDBE-4069-874B-337495A01459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14841075-DDBE-4069-874B-337495A01459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14841075-DDBE-4069-874B-337495A01459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67B51DF-4470-4B4D-B320-2EB4074A9640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67B51DF-4470-4B4D-B320-2EB4074A9640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67B51DF-4470-4B4D-B320-2EB4074A9640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67B51DF-4470-4B4D-B320-2EB4074A9640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B2443A-AC6B-4A8D-8716-11B682B6A8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B2443A-AC6B-4A8D-8716-11B682B6A8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B2443A-AC6B-4A8D-8716-11B682B6A8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B2443A-AC6B-4A8D-8716-11B682B6A8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2580CC-DCA1-48C0-8990-D1BA4163942A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2580CC-DCA1-48C0-8990-D1BA4163942A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2580CC-DCA1-48C0-8990-D1BA4163942A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2580CC-DCA1-48C0-8990-D1BA4163942A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF134E5E-F5EE-4CA9-BD33-9D25ACC9DA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF134E5E-F5EE-4CA9-BD33-9D25ACC9DA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF134E5E-F5EE-4CA9-BD33-9D25ACC9DA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF134E5E-F5EE-4CA9-BD33-9D25ACC9DA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C8E672-1651-41E7-ADD0-31A2BF1A29A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C8E672-1651-41E7-ADD0-31A2BF1A29A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C8E672-1651-41E7-ADD0-31A2BF1A29A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C8E672-1651-41E7-ADD0-31A2BF1A29A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158C94DA-7547-45AC-AD1B-9364F904A7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158C94DA-7547-45AC-AD1B-9364F904A7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158C94DA-7547-45AC-AD1B-9364F904A7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158C94DA-7547-45AC-AD1B-9364F904A7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF23F16F-BC04-45DE-A456-C84ECAABD236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF23F16F-BC04-45DE-A456-C84ECAABD236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF23F16F-BC04-45DE-A456-C84ECAABD236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF23F16F-BC04-45DE-A456-C84ECAABD236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069D587A-83CB-4788-B710-2B473960D210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069D587A-83CB-4788-B710-2B473960D210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069D587A-83CB-4788-B710-2B473960D210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069D587A-83CB-4788-B710-2B473960D210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE964B9-175B-4B50-AA8B-CFD39FF7CF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE964B9-175B-4B50-AA8B-CFD39FF7CF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE964B9-175B-4B50-AA8B-CFD39FF7CF02}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE964B9-175B-4B50-AA8B-CFD39FF7CF02}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E45D23FA-458B-4EBE-9BFB-9B2DCB81D23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45D23FA-458B-4EBE-9BFB-9B2DCB81D23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45D23FA-458B-4EBE-9BFB-9B2DCB81D23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45D23FA-458B-4EBE-9BFB-9B2DCB81D23C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE78BED7-A5EF-4E63-A09D-94C6B6416BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE78BED7-A5EF-4E63-A09D-94C6B6416BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE78BED7-A5EF-4E63-A09D-94C6B6416BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE78BED7-A5EF-4E63-A09D-94C6B6416BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20D6187A-991B-46FD-B5F4-D31042511EC7} = {E65CAD5C-5498-4553-B183-B851648D9BA6}
+		{14841075-DDBE-4069-874B-337495A01459} = {3707456A-D467-4409-9C90-E5026D9ACCB7}
+		{A67B51DF-4470-4B4D-B320-2EB4074A9640} = {3707456A-D467-4409-9C90-E5026D9ACCB7}
+		{87B2443A-AC6B-4A8D-8716-11B682B6A8F8} = {9C4E6496-D91E-424F-A4C3-5421233D890A}
+		{2E2580CC-DCA1-48C0-8990-D1BA4163942A} = {3707456A-D467-4409-9C90-E5026D9ACCB7}
+		{AF134E5E-F5EE-4CA9-BD33-9D25ACC9DA1B} = {3707456A-D467-4409-9C90-E5026D9ACCB7}
+		{43C8E672-1651-41E7-ADD0-31A2BF1A29A4} = {EAF0F289-C4AF-45AE-BC50-51219D2C2E57}
+		{158C94DA-7547-45AC-AD1B-9364F904A7EB} = {9C4E6496-D91E-424F-A4C3-5421233D890A}
+		{FF23F16F-BC04-45DE-A456-C84ECAABD236} = {EAF0F289-C4AF-45AE-BC50-51219D2C2E57}
+		{069D587A-83CB-4788-B710-2B473960D210} = {BB791AA5-B460-42EB-BE5C-8B5702F45585}
+		{8CE964B9-175B-4B50-AA8B-CFD39FF7CF02} = {BB791AA5-B460-42EB-BE5C-8B5702F45585}
+		{E45D23FA-458B-4EBE-9BFB-9B2DCB81D23C} = {9C4E6496-D91E-424F-A4C3-5421233D890A}
+		{DE78BED7-A5EF-4E63-A09D-94C6B6416BC9} = {9C4E6496-D91E-424F-A4C3-5421233D890A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB6FCFF0-C0B1-4432-8038-2966834702FB}
+	EndGlobalSection
+EndGlobal
