@@ -1,0 +1,34 @@
+{
+  "documents": [
+    {
+      "language": "en",
+      "id": "1",
+      "text": "Microsoft released Windows 10"
+    },
+    {
+      "language": "en",
+      "id": "2",
+      "text": "In 1975, Bill Gates III and Paul Allen founded the company."
+    },
+    {
+      "language": "en",
+      "id": "3",
+      "text": "Samuel is a good worker with Avanade"
+    },
+    {
+      "language": "en",
+      "id": "4",
+      "text": "Ben likes to go down to Baskin Robbins"
+    },
+    {
+      "language": "en",
+      "id": "5",
+      "text": "I am having an issue with my Apple mac book"
+    },
+    {
+      "language": "en",
+      "id": "6",
+      "text": "I'm having an issue with my apple mac book"
+    }
+  ]
+}
