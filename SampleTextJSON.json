@@ -1,0 +1,16 @@
+
+  {
+    "documents": [
+      {
+        "id": "1",
+        "language": "en",
+        "text": "Jeff bought three dozen eggs because there was a 50% discount."
+      },
+      {
+        "id": "2",
+        "language": "en",
+        "text": "The Great Depression began in 1929. By 1933, the GDP in America fell by 25%."
+      }
+    ]
+  }
+
